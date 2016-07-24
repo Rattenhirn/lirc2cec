@@ -1,0 +1,95 @@
+begin
+   remote = OCTAVA
+   button = KEY_KP1
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 3F:82:11:00" > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_KP2
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 3F:82:12:00" > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_KP3
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 3F:82:13:00"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_KP4
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 3F:82:14:00"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_POWER
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:6B"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_A
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:09"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_KPASTERISK
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:00"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_KPPLUS
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:01"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_KPMINUS
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:02"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_C
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:03"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_D
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:04"  > /tmp/cec.fifo
+end
+
+begin
+   remote = OCTAVA
+   button = KEY_B
+   prog   = irexec
+   repeat = 0
+   config = echo "tx 35:44:0D"  > /tmp/cec.fifo
+end
